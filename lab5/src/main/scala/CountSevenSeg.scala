@@ -9,7 +9,6 @@ class CountSevenSeg extends Module {
   })
 
   val sevSeg = WireDefault("b1111111".U(7.W))
-  
 
   // *** your code starts here
   val cntReg = RegInit ("h0".U(4.W))

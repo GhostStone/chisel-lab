@@ -515,3 +515,6 @@ Mar 09, 2023 3:30:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTrace
 Mar 09, 2023 3:30:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.03.09 15:49:52 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:51:03 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:52:58 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
