@@ -493,3 +493,25 @@ WARNING: Unmatched cancel notification for request id 930
 2023.03.09 14:53:52 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
 2023.03.09 14:55:44 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
 2023.03.09 14:55:59 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:57:42 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/test/scala/SevenSegCountSpec.scala
+2023.03.09 15:06:45 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:06:55 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:07:48 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:08:50 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:09:12 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:10:08 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:11:24 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:11:42 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:12:36 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:13:30 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:13:41 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:13:57 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:16:26 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:19:39 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 15:24:38 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/test/scala/SevenSegDecoderSpec.scala
+2023.03.09 15:25:02 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/test/scala/SevenSegCountSpec.scala
+2023.03.09 15:27:49 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+Mar 09, 2023 3:30:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 09, 2023 3:30:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

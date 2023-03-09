@@ -1,10 +1,52 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala:18:7: not found: value seg[0m
-[0m[[0m[31merror[0m] [0m[0m      seg := ("b0000000".U)[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala:21:7: not found: value seg[0m
-[0m[[0m[31merror[0m] [0m[0m      seg := ("b0000001".U)[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala:24:7: not found: value seg[0m
-[0m[[0m[31merror[0m] [0m[0m      seg := ("b0000010".U)[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:18:3: not found: value switch[0m
+[0m[[0m[31merror[0m] [0m[0m  switch(cntReg){[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:20:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("h0".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:23:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("h1".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:26:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("h2".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:29:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("h3".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:32:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("h4".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:35:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("h5".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:38:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("h6".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:41:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("h7".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:44:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("h8".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:47:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("h9".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:50:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("ha".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:53:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("hb".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:56:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("hc".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:59:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("hd".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:62:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("he".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala:65:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is("hf".U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m17 errors found[0m
