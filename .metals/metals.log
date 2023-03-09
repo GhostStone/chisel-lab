@@ -469,3 +469,27 @@ WARNING: Unmatched cancel notification for request id 1
 2023.03.09 14:27:28 INFO  no build target found for /Users/gee/chisel-lab/lab4/src/test/scala/HeapTest.scala. Using presentation compiler with project's scala-library version: 3.2.2
 2023.03.09 14:28:08 WARN  no build target for: /Users/gee/chisel-lab/lab4/src/main/scala/heap/Heap.scala
 2023.03.09 14:28:09 WARN  no build target for: /Users/gee/chisel-lab/lab4/src/test/scala/Mux5Test.scala
+2023.03.09 14:32:36 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/CountSevenSeg.scala
+2023.03.09 14:32:38 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:37:19 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/test/scala/Count6Spec.scala
+2023.03.09 14:37:26 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Count15.scala
+2023.03.09 14:38:09 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/test/scala/SevenSegDecoderSpec.scala
+2023.03.09 14:40:06 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Delay.scala
+2023.03.09 14:40:15 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Decoder.scala
+2023.03.09 14:44:10 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:44:27 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:46:16 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:46:57 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:47:14 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:47:27 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:47:58 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:48:05 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:50:39 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:50:55 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:51:21 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:51:47 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+Mar 09, 2023 2:52:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 930
+2023.03.09 14:53:52 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:55:44 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala
+2023.03.09 14:55:59 WARN  no build target for: /Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala

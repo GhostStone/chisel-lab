@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala:18:7: not found: value seg[0m
+[0m[[0m[31merror[0m] [0m[0m      seg := ("b0000000".U)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala:21:7: not found: value seg[0m
+[0m[[0m[31merror[0m] [0m[0m      seg := ("b0000001".U)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab5/src/main/scala/SevenSegDecoder.scala:24:7: not found: value seg[0m
+[0m[[0m[31merror[0m] [0m[0m      seg := ("b0000010".U)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
