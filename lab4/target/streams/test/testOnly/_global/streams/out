@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(HeapTest, org.scalatest.tools.Framework$$anon$1@acce6bd, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHeapTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHeap[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should present the currently largest number on io.root while ready and not empty[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should assert empty after all numbers have been removed[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should assert full when 8 numbers have been inserted[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should deassert full after one number is removed when it was full *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  io_full=true (1, 0x1) did not equal expected=false (0, 0x0) (lines in HeapTest.scala: 137, 113) (HeapTest.scala:137)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not change the sequence if new insertions are issued when it is full[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 785 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	HeapTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m

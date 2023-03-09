@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/gee/chisel-lab/lab4/src/main/scala/heap/Fetcher.scala:47:60: method zipped in class Ops is deprecated (since 2.13.0): Use xs.lazyZip(ys).lazyZip(zs)[0m
+[0m[[0m[33mwarn[0m] [0m[0m  io.res.children := (childrenReg, childIndexReg, maskReg).zipped.map { case (item, index, valid) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
