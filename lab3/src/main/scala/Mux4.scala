@@ -1,3 +1,4 @@
+
 import chisel3._
 
 /**
@@ -20,7 +21,19 @@ class Mux4 extends Module {
   // and connect the input and output ports.
 
   // below is dummy code to make this example compile
-  io.y := io.c
+  val mux2 = Module(new Mux2)
+  val mux3 = Module(new Mux2)
+  val mux4 = Module(new Mux2)
+  mux2.io.a := io.a
+  mux2.io.b := io.b
+  mux2.io.sel := io.sel(0)
+  mux3.io.a := io.c
+  mux3.io.b := io.d
+  mux3.io.sel := io.sel(0)
+  mux4.io.a := mux2.io.y
+  mux4.io.b := mux3.io.y
+  mux4.io.sel := io.sel(1)
+  io.y := mux4.io.y
 
   // ***** your code ends here *****
 }

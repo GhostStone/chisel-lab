@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Mux2Spec, org.scalatest.tools.Framework$$anon$1@5ff844d6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MajorityPrinter, org.scalatest.tools.Framework$$anon$1@5ff844d6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MajoritySimple, org.scalatest.tools.Framework$$anon$1@5ff844d6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MajorityFull, org.scalatest.tools.Framework$$anon$1@5ff844d6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DecoderSpec, org.scalatest.tools.Framework$$anon$1@5ff844d6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AddSubSpec, org.scalatest.tools.Framework$$anon$1@5ff844d6, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAddSubSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAddSub[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajoritySimple:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajority simple test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajorityPrinter:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajority print results[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMux2Spec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMux2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDecoderSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDecoder[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajorityFull:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajority exhaustive test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 863 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MajorityFull[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DecoderSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MajoritySimple[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MajorityPrinter[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AddSubSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux2Spec[0m

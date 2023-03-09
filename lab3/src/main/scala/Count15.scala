@@ -9,7 +9,12 @@ class Count15 extends Module {
 
   // ***** your code starts here *****
 
-  res := 0.U // dummy code to make it compile
+  //val delay = Module(new Delay)
+  val ctr = RegInit(0.U(4.W))
+
+  ctr := ctr + 1.U
+
+  res := ctr
 
   // ***** your code ends here *****
 

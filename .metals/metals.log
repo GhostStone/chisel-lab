@@ -1,0 +1,292 @@
+2023.02.02 16:07:57 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/gee/chisel-lab/.metals/lsp.trace.json or /Users/gee/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.02 16:07:58 INFO  logging to file /Users/gee/chisel-lab/.metals/metals.log
+2023.02.02 16:07:58 INFO  Started: Metals version 0.11.10 in workspace '/Users/gee/chisel-lab' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/gee/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.02 16:07:58 INFO  time: initialize in 0.73s
+2023.02.02 16:07:59 WARN  Build server is not auto-connectable.
+2023.02.02 16:07:59 WARN  no build tool detected in workspace '/Users/gee/chisel-lab'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.02 16:07:59 WARN  no build target for: /Users/gee/chisel-lab/lab1/src/main/scala/Hello.scala
+2023.02.02 16:08:01 INFO  no build target found for /Users/gee/chisel-lab/lab1/src/main/scala/Hello.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.02 16:08:02 INFO  time: code lens generation in 2.42s
+2023.02.02 16:32:54 WARN  no build target for: /Users/gee/chisel-lab/lab1/src/main/scala/Hello.scala
+2023.02.02 16:35:26 WARN  no build target for: /Users/gee/chisel-lab/lab1/build.sbt
+2023.02.02 16:36:19 WARN  no build target for: /Users/gee/chisel-lab/lab1/src/test/scala/HelloSpec.scala
+2023.02.02 16:37:04 INFO  shutting down Metals
+2023.02.07 08:20:38 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/gee/chisel-lab/.metals/lsp.trace.json or /Users/gee/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.07 08:20:38 INFO  logging to file /Users/gee/chisel-lab/.metals/metals.log
+2023.02.07 08:20:38 INFO  Started: Metals version 0.11.10 in workspace '/Users/gee/chisel-lab' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/gee/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.07 08:20:39 INFO  time: initialize in 0.86s
+2023.02.07 08:20:40 WARN  Build server is not auto-connectable.
+2023.02.07 08:20:40 WARN  no build tool detected in workspace '/Users/gee/chisel-lab'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.07 08:20:40 WARN  no build target for: /Users/gee/chisel-lab/lab1/src/test/scala/HelloSpec.scala
+2023.02.07 08:20:41 INFO  shutting down Metals
+2023.02.07 08:20:42 INFO  no build target found for /Users/gee/chisel-lab/lab1/src/test/scala/HelloSpec.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.07 08:20:44 INFO  time: code lens generation in 4.3s
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@72fb0be0[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 110]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@72fb0be0[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 111]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.02.09 14:34:40 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/gee/chisel-lab/.metals/lsp.trace.json or /Users/gee/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.09 14:34:41 INFO  logging to file /Users/gee/chisel-lab/.metals/metals.log
+2023.02.09 14:34:41 INFO  Started: Metals version 0.11.10 in workspace '/Users/gee/chisel-lab' for client Visual Studio Code 1.75.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/gee/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.09 14:34:41 INFO  time: initialize in 0.82s
+2023.02.09 14:34:43 WARN  Build server is not auto-connectable.
+2023.02.09 14:34:43 WARN  no build tool detected in workspace '/Users/gee/chisel-lab'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.09 14:34:43 WARN  no build target for: /Users/gee/chisel-lab/lab1/src/test/scala/HelloSpec.scala
+Feb 09, 2023 2:34:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.02.09 14:34:44 INFO  no build target found for /Users/gee/chisel-lab/lab1/src/test/scala/HelloSpec.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.09 14:34:44 WARN  no build target for: /Users/gee/chisel-lab/lab2/build.sbt
+2023.02.09 14:34:45 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Majority.scala
+2023.02.09 14:34:44 INFO  time: code lens generation in 2.69s
+2023.02.09 14:34:46 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Decoder.scala
+2023.02.09 14:34:47 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/AddSub.scala
+2023.02.09 14:34:48 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Majority.scala
+2023.02.09 14:34:56 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Decoder.scala
+2023.02.09 14:34:59 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/test/scala/MajoritySpec.scala
+2023.02.09 14:35:01 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/test/scala/DecoderSpec.scala
+2023.02.09 14:35:06 WARN  no build target for: /Users/gee/chisel-lab/lab2/build.sbt
+2023.02.09 14:36:19 WARN  no build target for: /Users/gee/chisel-lab/lab1/src/main/scala/Hello.scala
+2023.02.09 14:36:26 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Majority.scala
+2023.02.09 14:38:32 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/test/scala/MajoritySpec.scala
+2023.02.09 14:38:55 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/test/scala/AddSubSpec.scala
+2023.02.09 14:38:59 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/test/scala/MajoritySpec.scala
+2023.02.09 14:41:17 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Majority.scala
+2023.02.09 14:43:02 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/AddSub.scala
+2023.02.09 14:43:26 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Mux2.scala
+2023.02.09 14:43:35 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/test/scala/Mux2Spec.scala
+2023.02.09 14:44:26 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Mux2.scala
+2023.02.09 14:46:56 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Decoder.scala
+2023.02.09 14:49:52 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Decoder.scala
+2023.02.09 14:52:18 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Decoder.scala
+Feb 09, 2023 2:54:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 707
+2023.02.09 14:54:57 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Decoder.scala
+2023.02.09 14:57:10 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Decoder.scala
+2023.02.09 14:57:27 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/AddSub.scala
+2023.02.09 14:58:42 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/AddSub.scala
+2023.02.09 14:59:05 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/AddSub.scala
+2023.02.09 15:00:31 INFO  shutting down Metals
+2023.02.09 15:00:34 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/gee/chisel-lab/.metals/lsp.trace.json or /Users/gee/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.09 15:00:35 INFO  logging to file /Users/gee/chisel-lab/.metals/metals.log
+2023.02.09 15:00:35 INFO  Started: Metals version 0.11.10 in workspace '/Users/gee/chisel-lab' for client Visual Studio Code 1.75.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/gee/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.09 15:00:36 INFO  time: initialize in 0.78s
+2023.02.09 15:00:37 WARN  Build server is not auto-connectable.
+2023.02.09 15:00:37 WARN  no build tool detected in workspace '/Users/gee/chisel-lab'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.09 15:00:37 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/AddSub.scala
+2023.02.09 15:00:37 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Mux2.scala
+2023.02.09 15:00:38 INFO  no build target found for /Users/gee/chisel-lab/lab2/src/main/scala/Mux2.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.09 15:00:39 INFO  time: code lens generation in 2.44s
+2023.02.09 15:02:56 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/AddSub.scala
+2023.02.09 15:03:09 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Mux2.scala
+2023.02.09 15:03:13 INFO  shutting down Metals
+2023.02.14 08:16:04 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/gee/chisel-lab/.metals/lsp.trace.json or /Users/gee/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.14 08:16:05 INFO  logging to file /Users/gee/chisel-lab/.metals/metals.log
+2023.02.14 08:16:05 INFO  Started: Metals version 0.11.10 in workspace '/Users/gee/chisel-lab' for client Visual Studio Code 1.75.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/gee/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.14 08:16:06 INFO  time: initialize in 0.84s
+2023.02.14 08:16:07 WARN  Build server is not auto-connectable.
+2023.02.14 08:16:07 WARN  no build tool detected in workspace '/Users/gee/chisel-lab'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.14 08:16:07 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Mux2.scala
+2023.02.14 08:16:08 INFO  no build target found for /Users/gee/chisel-lab/lab2/src/main/scala/Mux2.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.14 08:16:09 INFO  time: code lens generation in 2.77s
+2023.02.14 08:16:11 INFO  shutting down Metals
+2023.02.14 13:44:49 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/gee/chisel-lab/.metals/lsp.trace.json or /Users/gee/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.14 13:44:49 INFO  logging to file /Users/gee/chisel-lab/.metals/metals.log
+2023.02.14 13:44:49 INFO  Started: Metals version 0.11.10 in workspace '/Users/gee/chisel-lab' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/gee/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.14 13:44:50 INFO  time: initialize in 0.79s
+2023.02.14 13:44:51 WARN  Build server is not auto-connectable.
+2023.02.14 13:44:51 WARN  no build tool detected in workspace '/Users/gee/chisel-lab'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.14 13:44:51 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Mux2.scala
+2023.02.14 13:44:53 INFO  no build target found for /Users/gee/chisel-lab/lab2/src/main/scala/Mux2.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.14 13:44:54 INFO  time: code lens generation in 2.18s
+2023.02.14 13:44:54 INFO  time: code lens generation in 2.18s
+2023.02.14 13:45:23 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/AddSub.scala
+2023.02.14 13:45:25 WARN  no build target for: /Users/gee/chisel-lab/lab1/build.sbt
+2023.02.14 13:45:29 WARN  no build target for: /Users/gee/chisel-lab/lab1/src/main/scala/Hello.scala
+2023.02.14 14:38:12 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/test/scala/Mux2Spec.scala
+2023.02.14 14:39:39 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.14 14:42:50 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.14 14:45:42 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.14 14:46:28 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/test/scala/UseMux2Spec.scala
+2023.02.14 14:47:17 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.14 14:49:01 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+Feb 14, 2023 2:49:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 169
+2023.02.14 14:49:18 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.14 14:49:32 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.14 15:00:13 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:00:47 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux2.scala
+2023.02.14 15:00:55 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.14 15:01:01 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux2.scala
+2023.02.14 15:04:57 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.14 15:05:24 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux2.scala
+2023.02.14 15:05:46 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:05:48 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.14 15:06:11 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux2.scala
+2023.02.14 15:06:18 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Delay.scala
+2023.02.14 15:06:20 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Count15.scala
+2023.02.14 15:06:20 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala
+2023.02.14 15:06:21 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Count6.scala
+2023.02.14 15:06:22 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux2.scala
+2023.02.14 15:06:25 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:09:20 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux2.scala
+2023.02.14 15:10:21 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.14 15:10:33 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+Feb 14, 2023 3:11:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 461
+2023.02.14 15:11:33 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.14 15:13:09 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:29:45 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux2.scala
+2023.02.14 15:35:24 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:35:34 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux2.scala
+2023.02.14 15:36:15 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:37:22 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:37:26 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:38:04 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:39:27 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:39:48 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:43:50 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:44:18 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:44:33 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:45:18 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:45:57 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/test/scala/Mux4Spec.scala
+2023.02.14 15:49:16 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:52:45 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:53:08 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/test/scala/DecoderSpec.scala
+2023.02.14 15:53:10 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Mux2.scala
+2023.02.14 15:53:12 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Majority.scala
+2023.02.14 15:53:14 WARN  no build target for: /Users/gee/chisel-lab/lab2/src/main/scala/Decoder.scala
+2023.02.14 15:53:37 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:54:44 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:56:41 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:56:44 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:57:19 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 15:58:36 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 16:00:53 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 16:01:12 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 16:01:24 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 16:03:28 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 16:10:25 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 16:10:50 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.14 16:30:11 INFO  shutting down Metals
+2023.02.16 13:55:59 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/gee/chisel-lab/.metals/lsp.trace.json or /Users/gee/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.16 13:55:59 INFO  logging to file /Users/gee/chisel-lab/.metals/metals.log
+2023.02.16 13:55:59 INFO  Started: Metals version 0.11.10 in workspace '/Users/gee/chisel-lab' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/gee/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.16 13:56:00 INFO  time: initialize in 0.77s
+2023.02.16 13:56:01 WARN  Build server is not auto-connectable.
+2023.02.16 13:56:01 WARN  no build tool detected in workspace '/Users/gee/chisel-lab'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.16 13:56:01 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+2023.02.16 13:56:03 INFO  no build target found for /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.16 13:56:03 INFO  time: code lens generation in 2.91s
+2023.02.16 14:04:06 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/UseMux2.scala
+2023.02.16 14:04:15 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Delay.scala
+2023.02.16 14:13:37 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Delay.scala
+2023.02.16 14:14:58 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Count15.scala
+2023.02.16 14:16:39 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Mux4.scala
+Feb 16, 2023 2:16:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 321
+2023.02.16 14:22:01 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Count15.scala
+2023.02.16 14:22:21 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Count15.scala
+2023.02.16 14:22:47 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Count6.scala
+2023.02.16 14:24:56 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Count6.scala
+2023.02.16 14:25:30 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala
+2023.02.16 14:29:53 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala
+2023.02.16 14:30:06 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala
+2023.02.16 14:30:12 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala
+2023.02.16 14:30:59 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala
+2023.02.16 14:36:10 INFO  shutting down Metals
+2023.02.21 08:24:18 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/gee/chisel-lab/.metals/lsp.trace.json or /Users/gee/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.21 08:24:19 INFO  logging to file /Users/gee/chisel-lab/.metals/metals.log
+2023.02.21 08:24:19 INFO  Started: Metals version 0.11.10 in workspace '/Users/gee/chisel-lab' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/gee/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.21 08:24:19 INFO  time: initialize in 0.82s
+2023.02.21 08:24:21 WARN  Build server is not auto-connectable.
+2023.02.21 08:24:21 WARN  no build tool detected in workspace '/Users/gee/chisel-lab'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.21 08:24:21 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala
+2023.02.21 08:24:23 INFO  no build target found for /Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.21 08:24:24 INFO  time: code lens generation in 3.29s
+2023.02.21 08:24:29 INFO  shutting down Metals
+2023.02.26 23:58:09 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/gee/chisel-lab/.metals/lsp.trace.json or /Users/gee/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.26 23:58:10 INFO  logging to file /Users/gee/chisel-lab/.metals/metals.log
+2023.02.26 23:58:10 INFO  Started: Metals version 0.11.10 in workspace '/Users/gee/chisel-lab' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/gee/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.26 23:58:11 INFO  time: initialize in 0.94s
+2023.02.26 23:58:12 WARN  Build server is not auto-connectable.
+2023.02.26 23:58:12 WARN  no build tool detected in workspace '/Users/gee/chisel-lab'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.26 23:58:12 WARN  no build target for: /Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala
+Feb 26, 2023 11:58:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.02.26 23:58:14 INFO  no build target found for /Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.27 13:11:34 INFO  shutting down Metals

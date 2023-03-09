@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/gee/chisel-lab/lab1/target/scala-2.13/lab1_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/gee/chisel-lab/lab1/target/scala-2.13/classes/Hello$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/gee/chisel-lab/lab1/target/scala-2.13/classes/HelloMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/gee/chisel-lab/lab1/target/scala-2.13/classes/Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/gee/chisel-lab/lab1/target/scala-2.13/classes/HelloMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloMain$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/gee/chisel-lab/lab1/target/scala-2.13/classes/HelloMain$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

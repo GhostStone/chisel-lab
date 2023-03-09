@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala:16:15: not found: value setZero[0m
+[0m[[0m[31merror[0m] [0m[0m  reg1 := Mux(setZero, 0, reg1 + io.din)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab3/src/main/scala/Accu.scala:16:24: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(0)[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Data[0m
+[0m[[0m[31merror[0m] [0m[0m  reg1 := Mux(setZero, 0, reg1 + io.din)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

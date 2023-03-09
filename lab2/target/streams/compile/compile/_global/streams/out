@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab2/src/main/scala/Decoder.scala:20:15: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String("b0010.U")[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Data[0m
+[0m[[0m[31merror[0m] [0m[0m      dec := ("b0010.U")[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gee/chisel-lab/lab2/src/main/scala/Decoder.scala:23:15: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String("b0100.U")[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Data[0m
+[0m[[0m[31merror[0m] [0m[0m      dec := ("b0100.U")[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
