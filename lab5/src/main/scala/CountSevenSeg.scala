@@ -12,8 +12,14 @@ class CountSevenSeg extends Module {
 
   // *** your code starts here
   val cntReg = RegInit ("h0".U(4.W))
+  val clkReg = RegInit (0.U(32.W))
 
-  cntReg := cntReg + "h1".U
+  when (clkReg === 50000000.U){
+    cntReg := cntReg + "h1".U
+    clkReg := 0.U
+  }
+  
+
 
   when(cntReg === "hf".U) {
     cntReg := "h0".U
